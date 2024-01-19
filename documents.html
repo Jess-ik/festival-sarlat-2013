@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Documents</title>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<style type="text/css">
+@font-face {
+	font-family: 'Economica';
+	src:url(fonts/economica/Economica-Regular-OTF.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';
+	src:url(fonts/lato/Lato-Reg.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+body{margin:0;font-family:"Lato", Times, serif; font-size:14px;width:100%;}
+.photos, .videos, .dp{width:25%; height:33.3%; position:absolute; background:#FFF; cursor:pointer;color:#318db2;}
+.videos{margin-left:25%;top:33.3%;}
+.dp{top:66.6%;}
+
+.photos:hover, .videos:hover, .dp:hover{background:#318db2; color:#FFF;}
+.photos:active, .videos:active, .dp:active{background:#936;}
+
+h2{font-size:38px; margin:0 auto; display:block; position:relative; top:40%; font-family: 'Economica';}
+.photos h2{width:80px;height:30px;}
+.videos h2{width:80px;height:30px;}
+.dp h2{width:140px;height:30px;top:35%;}
+.photos h2:hover{color:#FFF;}
+
+h3{font-size:30px; margin:0 auto; display:block; position:relative;  top:5%; font-family: 'Economica';color:#318db2;}
+h4{font-size:22px; font-family: 'Economica'; height:10px; margin-top:5px;}
+h5{font-size:18px; font-family: 'Economica'; height:0px;}
+
+
+.bloc-1{width:49.9%;height:100%;margin-left:50%;background:#FFF url(images/pattern6.png);position:absolute; border-left:solid thin #318db2;}
+/*#photos{background: #96C;}
+#videos{background:#F03}
+#dp{background:#966}*/
+
+.contenu{width:85%; height:80%; padding-left:10px; margin-top:8%; margin-left:5%;}
+
+.jp-container{
+    width:620px; height:80%;
+	
+    position:absolute;
+    background:#fff;
+    border:1px solid #D8DFEA;
+	float:left;}
+
+.jspPane{
+	position: absolute;}
+
+.jspVerticalBar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10px;
+	height: 100%;
+}
+
+/*grande barre de scrolle grise*/
+.jspTrack {
+	background: #F2F4F8;
+	position: relative;
+	height:100%;}
+
+/*curseur bleu*/
+.jspDrag {
+	background: #79a1b5;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	border:1px solid #56839a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;}
+
+
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body>
+
+
+<div class="photos" onclick="MM_showHideLayers('photos','','show','videos','','hide','dp','','hide')"><h2>Photos</h2></div>
+<div class="videos" onclick="MM_showHideLayers('photos','','hide','videos','','show','dp','','hide')"><h2>Vidéos</h2></div>
+<div class="dp" onclick="MM_showHideLayers('photos','','hide','videos','','hide','dp','','show')"><h2>Dossier de</br>presse</h2></div>
+
+
+
+<div class="bloc-1" id="dp"> 
+	<h3 style="margin-left:30%;">Dossier de presse</h3>
+    <div class="contenu">
+    <div id="jp-container" class="jp-container">
+        <div style="padding:2%;">
+    <h4>LES JEUX DU THEATRE DE SARLAT</h4>
+    <h5><strong>62e FESTIVAL</strong></h5>
+    <p>Du 20 juillet au 5 août 2013 
+    </br></br>
+    <strong>Carte blanche à Jean-Paul TRIBOUT.</strong 
+    ></br></br>
+    Premier d’Aquitaine, le plus ancien après Avignon, le Festival des Jeux du Théâtre de Sarlat compte parmi les plus renommés de France. 
+    </br></br>
+    Au cours de son histoire, le Festival s’est attaché à présenter des pièces du répertoire classique, mais aussi à faire connaître des oeuvres contemporaines, des créations variées, ainsi que des spectacles poétiques, musicaux, et des lectures. 
+    </br></br>
+    Et pour l’été prochain, selon son habitude, toute l’équipe s’est employée, sous la houlette de Jean-Paul Tribout, à concocter un programme éclectique qui puisse enchanter tous les publics.
+    </br></br>
+    18 spectacles, dont une lecture, des rencontres-débats avec le public, permettent au Festival d’accueillir des artistes confirmés et de nouveaux talents, comédiens, auteurs et metteurs en scène... 
+    </br></br>
+    <strong>Tous les spectacles sont présentés en plein air. </strong></br></br>
+    Les quatre lieux mythiques de Sarlat, la Place de la Liberté, le Jardin des Enfeus, l’Abbaye Sainte-Claire, le Jardin du Plantier accueillent pièces classiques et oeuvres contemporaines. 
+    </br></br>
+    Dans la journée, Sarladais, chalands et touristes, peuvent suivre le montage des décors et voir répéter les comédiens. 
+    </br></br>
+    Chaque année, le Festival attire près de 7.000 spectateurs. 
+    </br></p>
+    <h5><strong>LES RENCONTRES DE PLAMON</strong></h5>
+    <p>Du 20 juillet au 5 août, chaque matin, à 11h00, des débats, animés par Jean-Paul Tribout, favorisent la rencontre et l’échange entre les 
+    comédiens, les auteurs, les metteurs en scène, les journalistes et le public. </br>
+    Les rencontres théâtrales du Festival des Jeux du Théâtre sont donc consacrées au libre entretien, à propos du spectacle de la veille et de celui du soir. </br>
+    Qu’on aime bombarder les artistes de questions doctes ou farfelues, qu’on préfère se poser en critique dramatique, ou bien 
+    discuter à bâtons rompus, on se régale de petits potins de coulisse, côté cour ou côté jardin. </br>
+    Pour conclure avec convivialité ces rencontres et prolonger le plaisir de l’échange, le Comité du Festival se réjouit d’accueillir les participants, nombreux, autour d’un apéritif. 
+    </br></br>
+    </p>
+    <h5><strong>PROGRAMME DU FESTIVAL</strong></h5></br>
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="bloc-1" id="videos"><h3 style="margin-left:42%;">Vidéos</h3><img src="images/photos/photos2.png" style="margin:25% 20%;"/></div>
+<div class="bloc-1" id="photos"><h3 style="margin-left:42%;">Photos</h3> <img src="images/photos/photos1.png" style="margin:25% 20%;"/></div>
+
+<script type="text/javascript">
+    $(function() {
+    
+        // the element we want to apply the jScrollPane
+        var $el					= $('#jp-container').jScrollPane({
+            verticalGutter 	: -16
+        }),
+                
+        // the extension functions and options 	
+            extensionPlugin 	= {
+                
+                extPluginOpts	: {
+                    // speed for the fadeOut animation
+                    mouseLeaveFadeSpeed	: 500,
+                    // scrollbar fades out after hovertimeout_t milliseconds
+                    hovertimeout_t		: 1000,
+                    // if set to false, the scrollbar will be shown on mouseenter and hidden on mouseleave
+                    // if set to true, the same will happen, but the scrollbar will be also hidden on mouseenter after "hovertimeout_t" ms
+                    // also, it will be shown when we start to scroll and hidden when stopping
+                    useTimeout			: true,
+                    // the extension only applies for devices with width > deviceWidth
+                    deviceWidth			: 980
+                },
+                hovertimeout	: null, // timeout to hide the scrollbar
+                isScrollbarHover: false,// true if the mouse is over the scrollbar
+                elementtimeout	: null,	// avoids showing the scrollbar when moving from inside the element to outside, passing over the scrollbar
+                isScrolling		: false,// true if scrolling
+                addHoverFunc	: function() {
+                    
+                    // run only if the window has a width bigger than deviceWidth
+                    if( $(window).width() <= this.extPluginOpts.deviceWidth ) return false;
+                    
+                    var instance		= this;
+                    
+                    // functions to show / hide the scrollbar
+                    $.fn.jspmouseenter 	= $.fn.show;
+                    $.fn.jspmouseleave 	= $.fn.fadeOut;
+                    
+                    // hide the jScrollPane vertical bar
+                    var $vBar			= this.getContentPane().siblings('.jspVerticalBar').hide();
+                    
+                    /*
+                     * mouseenter / mouseleave events on the main element
+                     * also scrollstart / scrollstop - @James Padolsey : http://james.padolsey.com/javascript/special-scroll-events-for-jquery/
+                     */
+                    $el.bind('mouseenter.jsp',function() {
+                        
+                        // show the scrollbar
+                        $vBar.stop( true, true ).jspmouseenter();
+                        
+                        if( !instance.extPluginOpts.useTimeout ) return false;
+                        
+                        // hide the scrollbar after hovertimeout_t ms
+                        clearTimeout( instance.hovertimeout );
+                        instance.hovertimeout 	= setTimeout(function() {
+                            // if scrolling at the moment don't hide it
+                            if( !instance.isScrolling )
+                                $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                        }, instance.extPluginOpts.hovertimeout_t );
+                        
+                        
+                    }).bind('mouseleave.jsp',function() {
+                        
+                        // hide the scrollbar
+                        if( !instance.extPluginOpts.useTimeout )
+                            $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                        else {
+                        clearTimeout( instance.elementtimeout );
+                        if( !instance.isScrolling )
+                                $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                        }
+                        
+                    });
+                    
+                    if( this.extPluginOpts.useTimeout ) {
+                        
+                        $el.bind('scrollstart.jsp', function() {
+                        
+                            // when scrolling show the scrollbar
+                        clearTimeout( instance.hovertimeout );
+                        instance.isScrolling	= true;
+                        $vBar.stop( true, true ).jspmouseenter();
+                        
+                    }).bind('scrollstop.jsp', function() {
+                        
+                            // when stop scrolling hide the scrollbar (if not hovering it at the moment)
+                        clearTimeout( instance.hovertimeout );
+                        instance.isScrolling	= false;
+                        instance.hovertimeout 	= setTimeout(function() {
+                            if( !instance.isScrollbarHover )
+                                    $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                            }, instance.extPluginOpts.hovertimeout_t );
+                        
+                    });
+                    
+                        // wrap the scrollbar
+                        // we need this to be able to add the mouseenter / mouseleave events to the scrollbar
+                    var $vBarWrapper	= $('<div/>').css({
+                        position	: 'absolute',
+                        left		: $vBar.css('left'),
+                        top			: $vBar.css('top'),
+                        right		: $vBar.css('right'),
+                        bottom		: $vBar.css('bottom'),
+                        width		: $vBar.width(),
+                        height		: $vBar.height()
+                    }).bind('mouseenter.jsp',function() {
+                        
+                        clearTimeout( instance.hovertimeout );
+                        clearTimeout( instance.elementtimeout );
+                        
+                        instance.isScrollbarHover	= true;
+                        
+                            // show the scrollbar after 100 ms.
+                            // avoids showing the scrollbar when moving from inside the element to outside, passing over the scrollbar								
+                        instance.elementtimeout	= setTimeout(function() {
+                            $vBar.stop( true, true ).jspmouseenter();
+                        }, 100 );	
+                        
+                    }).bind('mouseleave.jsp',function() {
+                        
+                            // hide the scrollbar after hovertimeout_t
+                        clearTimeout( instance.hovertimeout );
+                        instance.isScrollbarHover	= false;
+                        instance.hovertimeout = setTimeout(function() {
+                                // if scrolling at the moment don't hide it
+                            if( !instance.isScrolling )
+                                    $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                            }, instance.extPluginOpts.hovertimeout_t );
+                        
+                    });
+                    
+                    $vBar.wrap( $vBarWrapper );
+                    
+                }
+                
+                }
+                
+            },
+            
+            // the jScrollPane instance
+            jspapi 			= $el.data('jsp');
+            
+        // extend the jScollPane by merging	
+        $.extend( true, jspapi, extensionPlugin );
+        jspapi.addHoverFunc();
+    
+    });
+</script>
+</body>
+</html>

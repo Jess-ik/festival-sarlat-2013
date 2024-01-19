@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Le Festival</title>
+<link rel="stylesheet" type="text/css" href="css/stylefestival.css" />
+<style type="text/css">
+@font-face {
+	font-family: 'Lato';
+	src:url(fonts/lato/Lato-Reg.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Economica';
+	src:url(fonts/economica/Economica-Regular-OTF.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+body{margin:0;font-family: 'Lato'; font-size:13px;}
+.bloc-1{width:50%;height:100%;margin-left:50%;background:#FFF;position:absolute;}
+.content{padding:30px;}
+
+h1{color:#e69f45; margin:0 auto;width:140px; margin-top:30px;font-family: 'Economica';}
+h2{color:#e69f45; padding-left:45px;font-family: 'Economica';}
+h2:hover{color:#C00;}
+
+.histoire{height:60px; width:100px; overflow:hidden;}
+.histoire:hover{width:100%; padding-bottom:350px; cursor:pointer; -webkit-transition-property: padding-bottom; -webkit-transition-duration: .5s, 1s;}
+	
+.lieux{height:60px; width:100px; padding-top:20px; overflow:hidden;}
+.lieux:hover{width:100%; padding-bottom:390px; cursor:pointer; -webkit-transition-property: padding-bottom; -webkit-transition-duration: .5s, 1s;}
+	
+.partenaires{height:60px; width:240px; padding-top:20px; overflow:hidden;}
+.partenaires:hover{width:100%; padding-bottom:380px; cursor:pointer; -webkit-transition-property: padding-bottom; -webkit-transition-duration: .5s, 1s;}
+	
+.box, #box, #enfeus, #plantier, #abbaye, #liberte{ width:500px; height:400px; position:absolute; top:20%; left:8%;background:#FFF;}
+.enfeus:hover, .plantier:hover, .abbaye:hover, .liberte:hover{color:#C00; cursor:pointer;}
+
+#box, #enfeus, #plantier, #abbaye, #liberte{width:400px; height:300px; top:50px; left:50px;}
+#enfeus{background:url(images/enfeus.png);visibility: hidden;}
+#plantier{background:url(images/plantier.png);visibility: hidden;}
+#abbaye{background:url(images/abbaye.png);visibility: hidden;}
+#liberte{background:url(images/liberte.png);visibility: hidden;}
+#box{background:url(images/sarlat.png)}
+
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body>
+
+<div class="box">
+  <div id="enfeus"></div>
+  <div id="plantier"></div>
+  <div id="abbaye"></div>
+  <div id="liberte"></div>
+  <div id="box"></div>
+</div>
+
+<div class="bloc-1">
+	<h1>LE FESTIVAL</h1>
+    <div class="content">
+		<section class="ac-container">
+				
+<!-----------HISTOIRE--------------->                
+                <div>
+					<input id="ac-1" name="accordion-1" type="radio" checked />
+					<label for="ac-1"> <h2>L'HISTOIRE </h2></label>
+					<article class="ac-histoire">
+						<p><strong>IL ETAIT UNE FOIS, LE THEATRE A SARLAT</strong>
+            </br>
+            <i>« A l’origine était un homme, Jacques Boissarie, un homme amoureux de sa ville, Sarlat, et un fou de théâtre. Au cours de ses promenades, souvent nocturnes, au cœur de la cité, il ne pouvait empêcher son imagination de voir, en chaque espace rencontré, un lieu scénique, et de l’associer à une pièce d’un répertoire qu’il connaissait fort bien. »</i>  <strong>Guy Fournier,</strong> Ancien Maire de Sarlat. 
+            </br></br>
+            Ainsi germait, en 1952, l’idée de créer une alliance entre le patrimoine sarladais et l’art dramatique. Jacques Boissarie, pionnier du Festival, entamait sa grande épopée par la création et la mise en place de stages d’art dramatique. Ainsi, durant l’été 1952, les stagiaires de fin de cycle présentaient-ils <i>Numance</i>, mise en scène par Jean Lagénie, et <i>Sainte-Jeanne</i>, mise en scène par Gabriel Monnet. Jouées en plein air, usant des décors naturels de la ville, les pièces nécessitaient la participation et la figuration des habitants... 
+            </br></br>
+            <strong>Sarlat devenait alors atelier, scène et décor de théâtre...</strong> 
+            </br></br>
+            Depuis 1952, le Festival anime les vieilles pierres de Sarlat pendant l’été. Aujourd’hui, le Festival, avec sa 62e édition, est devenu l’un des hauts lieux de la vie théâtrale française. Il est géré par une association loi 1901 réunissant des bénévoles passionnés de théâtre. Le plus ancien de sa catégorie après Avignon, le Festival des Jeux du Théâtre de Sarlat donne ses représentations en plein air, dans le décor somptueux de la cité périgourdine. </p>
+					</article>
+				</div>
+<!-----------/HISTOIRE--------------->
+
+<!-----------LIEUX--------------->                
+				<div>
+					<input id="ac-2" name="accordion-1" type="radio" />
+					<label for="ac-2"><h2>LES LIEUX</h2></label>
+					<article class="ac-lieux">
+                    	</br>
+						<div class="liberte"onclick="MM_showHideLayers('box','','hide','liberte','','show','abbaye','','hide','plantier','','hide','enfeus','','hide')"><strong><u>Place de la Liberté</u></strong></div>
+            <p>Centre névralgique de la ville, la place de la Liberté, bordée de terrasses, est le siège du marché, où se vendent les spécialités de la région : foie gras, truffes, figues et noix.</p>
+            
+            <div class="abbaye"onclick="MM_showHideLayers('box','','hide','abbaye','','show','liberte','','hide','plantier','','hide','enfeus','','hide')"><strong><u>Abbaye Ste Claire</u></strong></div>
+            <p>L'origine de l'abbaye se perd dans les légendes. Elle existe au ixe siècle, faisant partie des six grandes abbayes du Périgord (avec Paunat, Belvès, Saint Front de Périgueux, Brantôme et Terrasson). L'abbaye carolingienne de Sarlat est placée sous sa protection par l'empereur Charles le Gros, en 8861. Elle est la seule à avoir été épargnée par les Vikings car située à l'écart de la Dordogne et de ses affluents.</p>
+            
+            <div class="plantier"onclick="MM_showHideLayers('box','','hide','plantier','','show','abbaye','','hide','liberte','','hide','enfeus','','hide')"><strong><u>Jardin du Plantier</u></strong></div>
+            <p>A l'origine, cet espace vert était le verger et le jardin de l'abbaye, puis ceux du seigneur-évêque du diocèse de Sarlat avant de devenir le jardin public.
+    C'est un lieu de repos agréable où se trouvent jeux pour enfants, fontaines et diverses variétés de végétaux. </p>
+            
+            <div class="enfeus"onclick="MM_showHideLayers('box','','hide','enfeus','','show','abbaye','','hide','plantier','','hide','liberte','','hide')"><strong><u>Jardin des Enfeus</u></strong></div>
+            <p>En Europe, un enfeu est une tombe encastrée dans l'épaisseur du mur d'un édifice religieux. Il était généralement réservé aux nobles. Il peut être superposé. Des gisants peuvent figurer en dessous et/ou au-dessus. Plusieurs niches peuvent montrer le défunt à différents moments de sa vie. Des saints peuvent aussi y figurer.</p>
+					</article>
+				</div>
+<!-----------/LIEUX--------------->
+
+<!-----------PARTENAIRES--------------->
+				<div>
+					<input id="ac-3" name="accordion-1" type="radio" />
+					<label for="ac-3"><h2>LES PARTENAIRES</h2></label>
+					<article class="ac-partenaires">
+						<img src="images/partenaires.png"/>
+                        <p>« L’Adami représente les artistes-interprètes principaux : comédiens, danseurs, chanteurs, musiciens solistes, chefs d’orchestre. Sa mission est de gérer leurs droits en France et à l’étranger. Elle agit au niveau national et européen pour leur juste rémunération notamment au titre de la copie privée et des nouveaux usages numériques. Elle favorise également l’emploi artistique au moyen de ses aides à la création. »</p>
+					</article>
+				</div>
+<!-----------/PARTENAIRES--------------->                
+			</section>
+    </div>
+</div>
+
+</body>
+</html>
